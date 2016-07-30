@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650B99271D1BB13600CD1762 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 650B99261D1BB13600CD1762 /* config.h */; };
 		6801D6681BEF6CC600533783 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08805C9156E8F5100311537 /* AddressBook.framework */; };
 		6808EA5E1BADBAC200D8E50E /* PGCurvesTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6808EA581BADBAC200D8E50E /* PGCurvesTool.h */; };
 		6808EA5F1BADBAC200D8E50E /* PGCurvesTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6808EA591BADBAC200D8E50E /* PGCurvesTool.m */; };
@@ -3893,6 +3894,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		650B99261D1BB13600CD1762 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		6808EA581BADBAC200D8E50E /* PGCurvesTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGCurvesTool.h; path = thirdparty/PGPhotoEditor/PGCurvesTool.h; sourceTree = SOURCE_ROOT; };
 		6808EA591BADBAC200D8E50E /* PGCurvesTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGCurvesTool.m; path = thirdparty/PGPhotoEditor/PGCurvesTool.m; sourceTree = SOURCE_ROOT; };
 		6808EA5A1BADBAC200D8E50E /* PGFadeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGFadeTool.h; path = thirdparty/PGPhotoEditor/PGFadeTool.h; sourceTree = SOURCE_ROOT; };
@@ -14129,6 +14131,7 @@
 		D08805A1156E8F3600311537 = {
 			isa = PBXGroup;
 			children = (
+				650B99261D1BB13600CD1762 /* config.h */,
 				D0B9B19419CA324D0020C9CF /* LaunchScreen.xib */,
 				D0DAA484197496240036E709 /* Icon-76.png */,
 				D0DAA482197495EA0036E709 /* Icon-72@2x.png */,
@@ -18214,6 +18217,7 @@
 				D07498341B98CB32005F30CC /* TGChannelInfoController.h in Headers */,
 				D0249AEB1ABCA7BE0076ECBF /* TGMediaPickerPhotoStripView.h in Headers */,
 				681EACCE1A28FFA800E7C40C /* PGPhotoToolComposer.h in Headers */,
+				650B99271D1BB13600CD1762 /* config.h in Headers */,
 				D0C80DCE1A9B743700D5DF8A /* TGWebSearchResultsGalleryImageItemView.h in Headers */,
 				D061F2A21A928FC70031BCBE /* PGPhotoGaussianBlurFilter.h in Headers */,
 				688DBBD41BBEEB2F00F4ED33 /* TGMediaAssetsPhotoCell.h in Headers */,
